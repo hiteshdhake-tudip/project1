@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+         <script> 
+             $(document).ready(function(){
+			    $("#btn1").click(function(){
+				  alert("text: " + $("#test").text());
+				});
+			     $("#btn2").click(function(){
+				 alert("html: " + $("#test").html());
+				 });
+			 });
+        </script>
+ 
+        <style> 
+		  
+
+        </style>
+</head>
+
+<body>
+        <p id="test">this is an <b>animated </b> block</p>
+        <button id="btn1">show text</button><button id="btn2">show html</button>
+ 
+
+
+</body>
+</html>

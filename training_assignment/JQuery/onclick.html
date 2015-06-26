@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		 <script>
+		     $(document).ready(function(){
+			    $("p").on({
+				     mouseenter: function(){
+					    $(this).css("background-color", "lightgrey");
+					 },
+					 
+					 mouseleave: function(){
+					     $(this).css("background-color", "lightblue");
+					 },
+					 
+					 click: function(){
+					     $(this).css("background-color", "yellow");
+					 }
+				
+				});
+			 });
+		 </script>
+	 
+	 </head>
+	 
+	 <body>
+	     
+		 <p>click or move the mouse pointer over this pareagrph.</p>
+	 
+	 </body>

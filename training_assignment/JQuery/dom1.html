@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+         <script> 
+             $(document).ready(function(){
+			    $("#btn1").click(function(){
+				  alert("text: " + $("#test").val());
+				});
+			    
+			 });
+			 
+			  $(document).ready(function(){
+			    $("#btn1").click(function(){
+				  alert("text: " + $("#w3").attr("href"));
+				});
+			    
+			 });
+        </script>
+ 
+        <style> 
+		  
+
+        </style>
+</head>
+
+<body>
+       <input id="test" value="hitesh" type="text">
+        <button id="btn1">show value</button><br/>
+		<br/>
+		
+		
+		<a href="http://www.w3school.com" id="w3">weschool.com</a>
+		
+ 
+
+
+</body>
+</html>

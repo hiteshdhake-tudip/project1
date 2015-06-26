@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+     $("button").click(function(){
+	    $("#d1").animate({height: '300px', opacity: '0.4'},"slow");
+		$("#d1").animate({width:'300px', opacity: '0.8'},"slow");
+		$("#d1").animate({height: '100px', opacity: '0.4'},"slow");
+		$("#d1").animate({width: '100px', opacity: '0.8'}, "slow");
+	 });
+});
+</script>
+ 
+<style> 
+
+</style>
+</head>
+<body>
+ <p>this is an animated block</p>
+ <button>click to animate</button><br/>
+ 
+<div id="d1" 
+     style="background-color:#98bf21; 
+	         height:100px;
+			  width:100px;
+			  position:absolute;
+			  margin:5px;"></div>
+
+
+</body>
+</html>
